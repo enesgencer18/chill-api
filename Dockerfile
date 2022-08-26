@@ -24,5 +24,3 @@ EXPOSE 80
 
 # when the container starts, start the main.R script
 ENTRYPOINT ["Rscript", "./main.R"]
-
-WORKDIR "chill-api"    
