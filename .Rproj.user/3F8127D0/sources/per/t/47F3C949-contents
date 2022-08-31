@@ -14,7 +14,7 @@ library(plumber)
 library(jsonlite)
 library(reprex)
 
-source("chilling_model.R")
+source("./chilling_model.R")
 
 
 #* @apiTitle Chill API
