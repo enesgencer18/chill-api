@@ -22,4 +22,4 @@ RUN tests/run_tests.sh
 EXPOSE 80
 
 # when the container starts, start the main.R script
-ENTRYPOINT ["Rscript", "./main.R"]    
+ENTRYPOINT ["Rscript", "./main.R"]     
