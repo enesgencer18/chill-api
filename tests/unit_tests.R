@@ -12,5 +12,5 @@ expect_that("Utah Model Unit Test:",
 
 expect_that("North-Carolina Model Unit Test:",
             {
-              expect_equal(chilling_model(x = temp_vec, model = "north_caroline"), north_carolina(temp_vec))
+              expect_equal(chilling_model(x = temp_vec, model = "north_carolina"), north_carolina(temp_vec))
             })
