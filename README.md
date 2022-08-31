@@ -1,3 +1,3 @@
 # chill-api
 
-A dockerized chilling models API. Created via R Plumber, Docker, and Github Actions.
+A Dockerized chilling models API. Created via R Plumber, Docker, and Github Actions.
