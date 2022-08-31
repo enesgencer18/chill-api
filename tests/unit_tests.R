@@ -3,6 +3,8 @@ library(testthat)
 
 source("./chilling_model.R")
 
+print("Unit tests are being done...")
+
 temp_vec <- rnorm(10, 30)
 
 expect_that("Utah Model Unit Test:",
