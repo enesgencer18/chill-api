@@ -17,7 +17,8 @@ RUN chmod +x tests/test.R
 RUN chmod +x tests/run_tests.sh
 
 # Run Tests  
-RUN Rscript tests/test.R
+#RUN Rscript tests/test.R
+RUN tests/run_tests.sh
 
 # open port 80 to traffic
 EXPOSE 80
