@@ -8,7 +8,7 @@ library("testthat")
 
 print("Packages are loaded successfully!")
 
-source("./chilling_model.R")
+source("/chilling_model.R")
 
 print("Unit tests are started...")
 
