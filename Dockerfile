@@ -13,11 +13,9 @@ COPY / /
 RUN Rscript required-packages/required-packages.R
 
 # Giving permission to tests to run
-RUN chmod +x tests/test.R
 RUN chmod +x tests/run_tests.sh
 
 # Run Tests  
-#RUN Rscript tests/test.R
 RUN tests/run_tests.sh
 
 # open port 80 to traffic
