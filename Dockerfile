@@ -19,7 +19,7 @@ RUN chmod +x tests/run_tests.sh
 RUN tests/run_tests.sh
 
 # open port 7575 to traffic
-EXPOSE 7576
+EXPOSE 8181
 
 # when the container starts, start the main.R script
 ENTRYPOINT ["Rscript", "./main.R"]    
