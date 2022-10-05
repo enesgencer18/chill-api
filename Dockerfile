@@ -18,7 +18,7 @@ RUN chmod +x tests/run_tests.sh
 # Run Tests  
 RUN tests/run_tests.sh
 
-# open port 80 to traffic
+# open port 7575 to traffic
 EXPOSE 7575
 
 # when the container starts, start the main.R script
